@@ -26,7 +26,7 @@ github_username:  beezvn
 
 
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "beezvn.github.io" # the base hostname & protocol for your site, e.g. http://example.com
+url: "http://aroyd.com.au" # the base hostname & protocol for your site, e.g. http://example.com
 
 
 # Build settings
