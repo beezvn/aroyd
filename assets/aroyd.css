@@ -8,7 +8,7 @@ hr{
 border-top: 2px solid #eee;
 }
 
-#menuModalDishes{
+.menuModalDishes{
 	column-count:3; 
 	margin:50px; 
 	font-size:22px; 
@@ -19,16 +19,16 @@ border-top: 2px solid #eee;
 	box-shadow: 5px 5px 2px #888888;
 }
 
-#menuModalDishes h2, li{
+.menuModalDishes h2, li{
 	padding:5px;
 }
 
-#menuModalDishes h6{
+.menuModalDishes h6{
 	padding-left:30px;
 }
 
 
-#menuModalDishes ul{
+.menuModalDishes ul{
 	margin:5px 30px 10px 30px; 
 }
 

@@ -5,11 +5,10 @@
 
 ---
 
-
 <title>AroyD Thai restaurant</title>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<link rel="stylesheet" href="/assets/w3.css">
+<link rel="stylesheet" href="http://www.w3schools.com/lib/w3.css">
 <link rel="stylesheet" href="/assets/aroyd.css">
 <link rel="stylesheet" href="/assets/font-awesome/css/font-awesome.min.css">
 <script src="/assets/jquery-3.1.1.min.js"></script>
@@ -60,7 +59,8 @@
   <div class="w3-row w3-padding-32" id="menu">
     <div class="w3-col l6 w3-padding-large w3-center" style="margin-top:10%;">
       <h1 class="w3-center">
-	<button class="w3-btn w3-round-xlarge w3-light-grey" onclick="$('#menuModal').show();"><span style="font-size:40px;"><i class="fa fa-spinner" aria-hidden="true"></i> See our menu</span></button></h1>
+	<button class="w3-btn w3-round-xlarge w3-light-grey" onclick="$('#menuModal').show();" style="margin-bottom:20px;"><span style="font-size:40px;"><i class="fa fa-spinner" aria-hidden="true"></i> See our menu</span></button>
+	<button class="w3-btn w3-round-large w3-light-grey" onclick="$('#lunchModal').show();"><span style="font-size:35px;"> Lunch specials <i class="fa fa-spinner" aria-hidden="true"></i></span></button></h1>
 	Phone: (02) 4732 2362 to order
     </div>
     <div class="w3-col l6 w3-padding-large">
@@ -133,7 +133,7 @@
 
 <!-- The Modal -->
 <div id="menuModal" class="w3-modal">
-  <div class="w3-modal-content w3-animate-zoom"  style="width:80%" >
+  <div class="w3-modal-content w3-animate-zoom"  style="width:90%" >
     <div class="w3-container">
       <span onclick="$('#menuModal').hide();"
       class="w3-closebtn">&times;</span>
@@ -142,27 +142,76 @@
 <h1 class="w3-center" style="font-size:50px; color:#5d5b5b;">Aroy-D Menu</h1>
 </div>
 
-<div class="w3-center noticeFrame">
-<div class="notice">
-<h4>PICK UP DEALS</h4> <br>
-Orders over $30
-Receive a free 1.25L bottle of soft drink <br>
-
-Orders over $70
-Receive a free 1.25L bottle of soft drink and
-1x serving of Spring Roll or Money Bag or Curry Puff <br>
+<div class="noticeFrame">
+<div class="notice" style="width:50%; margin-bottom:40px;">
+<h4 class="w3-center">PICK UP DEALS</h4>
+<ul>
+<li>
+Order over $30 and receive a free 1.25L bottle of soft drink
+</li>
+<li>
+Order over $70 and receive a free 1.25L bottle of soft drink and 1 x serving of Spring Roll or Money Bag or Curry Puff 
+</li>
+</ul>
 </div>
 <br>
-<div class="notice">
-<h4>ASK US ABOUT OUR TAKEAWAY LUCNH SPECIALS</h4><br>
-Do you have food allergies?<br> 
-Please let us know when you order.<br>
-</div>
-</div>
 
 
-<div id="menuModalDishes" >
+<button class="w3-btn w3-round-large w3-light-grey notice" onclick="$('#menuModal').hide(); $('#lunchModal').show();">
+<h4>ASK US ABOUT OUR  <br> TAKEAWAY LUCNH <br> SPECIALS $12.90 <br></h4>
+(Curry and Rice : $7.90)<br> <br>
+Click here to see our lunch specials menu
+</button>
+
+
+</div>
+<br>
+<div class="w3-center">
+<h3>Do you have food allergies?
+Please let us know when you order.</h3>
+</div>
+
+<div class="menuModalDishes" >
 {% for g in site.data.menu.groups %}
+<h2>{{g.description}}</h2>
+{% for title in g.subTitles %}
+<h6>{{title.name}}</h6>
+{% endfor %}
+<ul>
+<!--each item-->
+{% for item in g.items %}
+{% assign price = {{item.price}}|lstrip  %}
+<li>{{item.name}} <span class="w3-right">{% if price != '' %}  {{price}} {% endif %} </span> <br>
+<span style="font-size:18px;">{{item.description}}</span>
+</li>
+{% endfor %}
+</ul>
+{% endfor %}
+</div>	
+
+</div>
+</div>
+</div>
+
+<!-- The Lunch Modal -->
+<div id="lunchModal" class="w3-modal">
+  <div class="w3-modal-content w3-animate-zoom"  style="width:90%" >
+    <div class="w3-container">
+      <span onclick="$('#lunchModal').hide();"
+      class="w3-closebtn">&times;</span>
+
+<div class="w3-center">
+<h1 style="font-size:50px; color:#5d5b5b;">Aroy-D Lunch Specials</h1>
+<h4>TAKEAWAY LUCNH SPECIALS $12.90 <br>  Curry and Rice : ONLY $7.90 </h4>
+</div>
+
+<div class="w3-center">
+<h3>Do you have food allergies?
+Please let us know when you order.</h3>
+</div>
+
+<div class="menuModalDishes" >
+{% for g in site.data.lunch.groups %}
 <h2>{{g.description}}</h2>
 {% for title in g.subTitles %}
 <h6>{{title.name}}</h6>
