@@ -8,10 +8,10 @@
 <title>AroyD Thai restaurant</title>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<link rel="stylesheet" href="/aroyd/assets/w3.css">
-<link rel="stylesheet" href="/aroyd/assets/aroyd.css">
-<link rel="stylesheet" href="/aroyd/assets/font-awesome/css/font-awesome.min.css">
-<script src="/aroyd/assets/jquery-3.1.1.min.js"></script>
+<link rel="stylesheet" href="/assets/w3.css">
+<link rel="stylesheet" href="/assets/aroyd.css">
+<link rel="stylesheet" href="/assets/font-awesome/css/font-awesome.min.css">
+<script src="/assets/jquery-3.1.1.min.js"></script>
 
 <body>
 
@@ -44,7 +44,7 @@
   <!-- About Section -->
   <div class="w3-row" id="about">
     <div class="w3-padding-small w3-hide-small">
-     <img src="/aroyd/assets/images/main.jpg" class="w3-round" alt="main" width="1100px" height="400px">
+     <img src="/assets/images/main.jpg" class="w3-round" alt="main" width="1100px" height="400px">
     </div>
 
     <div class="w3-center">
@@ -63,7 +63,7 @@
 	Phone: (02) 4732 2362 to order
     </div>
     <div class="w3-col l6 w3-padding-large">
-      <img src="/aroyd/assets/images/chichencashew.jpg" class="w3-round w3-image" alt="Menu" width="500" height="750">
+      <img src="/assets/images/chichencashew.jpg" class="w3-round w3-image" alt="Menu" width="500" height="750">
     </div>
   </div>
 
@@ -72,7 +72,7 @@
   <!-- Our food -->
   <div class="w3-row w3-padding-32" id="food">
     <div class="w3-col s5 w3-padding-large">
-    <img src="/aroyd/assets/images/freshingredients03.jpg" class="w3-round w3-image" style="margin-top:40%" alt="Menu" width="500" height="500"><br>
+    <img src="/assets/images/freshingredients03.jpg" class="w3-round w3-image" style="margin-top:40%" alt="Menu" width="500" height="500"><br>
 	<h3 class="w3-center">Fresh ingredients</h3>
    </div>
    <div class="w3-col s1 w3-padding-large" style="margin-top:20%">
@@ -80,7 +80,7 @@
    </div>
    <div class="w3-col l6 w3-padding-large">
 	<h1 class="w3-center">Our food</h1><br> 	
-    <img src="/aroyd/assets/images/gallery.jpg" class="w3-round w3-image" alt="Menu" width="500" height="750">
+    <img src="/assets/images/gallery.jpg" class="w3-round w3-image" alt="Menu" width="500" height="750">
    </div>
  
   </div>
@@ -89,11 +89,11 @@
   
    <div class="w3-row w3-padding-32" id="reviews"> 
    <div class="w3-col l7 w3-padding-large">
-   <img src="/aroyd/assets/images/truelocal.png" class="w3-round w3-image" alt="Menu" width="800" height="750">
+   <img src="/assets/images/truelocal.png" class="w3-round w3-image" alt="Menu" width="800" height="750">
    </div>
     <div class="w3-col l5 w3-padding-large" style="box-shadow: 5px 5px 2px #888888">
 	 <h1 class="w3-center">Reviews</h1><br> 
-    <img src="/aroyd/assets/images/truelocalReviews.png" class="w3-round w3-image" alt="Menu" width="400" height="750">
+    <img src="/assets/images/truelocalReviews.png" class="w3-round w3-image" alt="Menu" width="400" height="750">
    </div>
    
   </div>
