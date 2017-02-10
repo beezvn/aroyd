@@ -182,6 +182,13 @@ Please let us know when you order.<br>
 </div>
 </div>
 
+
+<script>
+$(document).ready(function(){
+$('.container').removeClass();
+});
+</script>
+
 <!-- Footer -->
 <footer class="w3-center w3-light-grey w3-padding-12">
   <p><i class="fa fa-copyright" aria-hidden="true"></i> ARoy-D Thai Restaurant - 251 High street, Penrith, NSW 2750</p>
