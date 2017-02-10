@@ -1,3 +1,10 @@
+---
+# You don't need to edit this file, it's empty on purpose.
+# Edit theme's home layout instead if you wanna make some changes
+# See: https://jekyllrb.com/docs/themes/#overriding-theme-defaults
+
+---
+
 
 <title>AroyD Thai restaurant</title>
 <meta charset="UTF-8">
@@ -180,4 +187,4 @@ Please let us know when you order.<br>
   <p><i class="fa fa-copyright" aria-hidden="true"></i> ARoy-D Thai Restaurant - 251 High street, Penrith, NSW 2750</p>
 </footer>
 
-</body>
+<body>
