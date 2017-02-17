@@ -52,9 +52,9 @@
       <h5 class="w3-center">Authentic Thai Food</h5>           
     </div>
   </div>
-  
+
   <hr>
-  
+
   <!-- Menu Section -->
   <div class="w3-row w3-padding-32" id="menu">
     <div class="w3-col l6 w3-padding-large w3-center" style="margin-top:10%;">
@@ -69,7 +69,7 @@
   </div>
 
   <hr>
-  
+
   <!-- Our food -->
   <div class="w3-row w3-padding-32" id="food">
     <div class="w3-col s5 w3-padding-large">
@@ -83,22 +83,22 @@
 	<h1 class="w3-center">Our food</h1><br> 	
     <img src="/assets/images/gallery.jpg" class="w3-round w3-image" alt="Menu" width="500" height="750">
    </div>
- 
+
   </div>
-	
+
    <hr style="font-weight:bold">
-  
-   <div class="w3-row w3-padding-32" id="reviews"> 
+
+   <div class="w3-row w3-padding-32" id="reviews">
    <div class="w3-col l7 w3-padding-large">
    <img src="/assets/images/truelocal.png" class="w3-round w3-image" alt="Menu" width="800" height="750">
    </div>
     <div class="w3-col l5 w3-padding-large" style="box-shadow: 5px 5px 2px #888888">
-	 <h1 class="w3-center">Reviews</h1><br> 
+	 <h1 class="w3-center">Reviews</h1><br>
     <img src="/assets/images/truelocalReviews.png" class="w3-round w3-image" alt="Menu" width="400" height="750">
    </div>
-   
+
   </div>
-  
+
   <hr>
 
   <!-- Contact Section -->
@@ -113,11 +113,11 @@
 			Fri - Sat   : 5pm - 10h30 pm </li>            
             <li>251 High Street, Penrith, NSW 2750 </li>
             <li>Phone:  (02) 4732 2362 </li>
-            <li>Mobbile: 04 2212 8165 </li>
+            <li>Mobile: 04 2212 8165 </li>
             <li>Email: aroydthai@aroyd.com.au</li>
 	</ul>
   </div>
-  
+
 <div class="w3-col l6 w3-padding-large">
 <iframe
   width="500"
@@ -126,7 +126,7 @@
   src="https://www.google.com/maps/embed/v1/place?key=AIzaSyALt8P7E-i6V5nzptu0FdhA_sf0foRG7tk&q=251+High+St,+Penrith+NSW+2750" allowfullscreen>
 </iframe>
 </div>  
-   
+
 <!-- End page content -->
 </div>
 
@@ -150,7 +150,7 @@
 Order over $30 and receive a free 1.25L bottle of soft drink
 </li>
 <li>
-Order over $70 and receive a free 1.25L bottle of soft drink and 1 x serving of Spring Roll or Money Bag or Curry Puff 
+Order over $70 and receive a free 1.25L bottle of soft drink and 1 x serving of Spring Roll or Money Bag or Curry Puff
 </li>
 </ul>
 </div>
@@ -187,7 +187,7 @@ Please let us know when you order.</h3>
 {% endfor %}
 </ul>
 {% endfor %}
-</div>	
+</div>
 
 </div>
 </div>
@@ -226,7 +226,7 @@ Please let us know when you order.</h3>
 {% endfor %}
 </ul>
 {% endfor %}
-</div>	
+</div>
 </div>
 </div>
 </div>
@@ -242,5 +242,3 @@ $('.container').removeClass();
 <footer class="w3-center w3-light-grey w3-padding-12">
   <p><i class="fa fa-copyright" aria-hidden="true"></i> ARoy-D Thai Restaurant - 251 High street, Penrith, NSW 2750</p>
 </footer>
-
-</body>
