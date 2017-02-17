@@ -10,6 +10,9 @@
 <link rel="stylesheet" href="{{ site.url }}/assets/font-awesome/css/font-awesome.min.css">
 <script src="{{ site.url }}/assets/jquery-3.1.1.min.js"></script>
 
+</head>
+
+
 <body>
 
 <!-- Navbar (sit on top) -->
