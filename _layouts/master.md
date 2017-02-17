@@ -5,7 +5,7 @@
 <title>{{ site.title }}</title>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<link rel="stylesheet" href="http://www.w3schools.com/lib/w3.css">
+<link rel="stylesheet" href="{{ site.url }}/assets/w3.css">
 <link rel="stylesheet" href="{{ site.url }}/assets/aroyd.css">
 <link rel="stylesheet" href="{{ site.url }}/assets/font-awesome/css/font-awesome.min.css">
 <script src="{{ site.url }}/assets/jquery-3.1.1.min.js"></script>
