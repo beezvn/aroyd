@@ -24,6 +24,7 @@
     <!-- Right-sided navbar links. Hide them on small screens -->
     <li class="w3-right w3-hide-small">
       <a href="#menu" class="w3-left" onclick="$('#menuModal').show();">Menu</a>
+      <a href="https://online.kaarot.com.au/aroyd-Penrith" class="w3-left" >Order Online</a>
       <a href="#food" class="w3-left">Our food</a>
 	  <a href="#reviews" class="w3-left">Reviews</a>
       <a href="#contact" class="w3-left w3-margin-right">Contact</a>
