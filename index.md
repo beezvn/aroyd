@@ -28,7 +28,7 @@ lunchModal: lunch.md
 	<button class="w3-btn w3-round-xlarge w3-light-grey" onclick="$('#menuModal').show();" style="margin-bottom:20px;"><span style="font-size:40px;"><i class="fa fa-spinner" aria-hidden="true"></i> See our menu</span></button>
 	<button class="w3-btn w3-round-large w3-light-grey" onclick="$('#lunchModal').show();"><span style="font-size:35px;"> Lunch specials <i class="fa fa-spinner" aria-hidden="true"></i></span></button></h1>
 	Phone: (02) 4732 2362 to order <br/>
-	<a href="https://online.kaarot.com.au/aroyd-Penrith" class="w3-button w3-medium w3-white w3-border w3-round-xlarge">Order Online Now</a>
+	<a href="https://online.kaarot.com.au/aroyd-Penrith" class="w3-left w3-button w3-medium w3-white w3-border w3-round-xlarge">Order Online Now</a>
     </div>
     <div class="w3-col l6 w3-padding-large">
       <img src="{{ site.url }}/assets//images/chichencashew.jpg" class="w3-round w3-image" alt="Menu" width="500" height="750">
