@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Contact</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="icon" type="favicon.ico" href="favicon.ico" />
+</head>
+
+<body>
+
+<!-- Top Navigation Menu Bar section (non-scrolling title + buttons links) -->
+<div class="navigation_bar">
+	<div class="top"></div>
+	<h1 id="h1_title">Aroy-D</h1>
+	<h1 id="h1_subtitle">Thai Restaurant</h1>
+	<div class="links">
+		<table id="table_links">
+			<tr>
+            	<th class="th_selecting" id="th_order">	
+					<a id="order_text" href="https://online.kaarot.com.au/aroyd-Penrith/">ORDER</a>
+				</th>
+                <th class="th_selecting">	
+					<a href="index.html">Home</a>
+				</th>
+				<th class="th_selecting">	
+					<a href="menu.html">Menu</a>
+				</th>
+                <th class="th_selecting">	
+					<a href="special_menu.html">Specials</a>
+				</th>
+            	<th class="th_selecting">
+					<a href="contact.html" id="current_page">Contact</a>	
+				</th>
+			</tr>
+		</table>
+	</div>
+
+</div>
+
+<div class="space"></div>
+
+<!-- Pick up deals, Free home delivery, call now, and book ahead sections -->
+
+<div id="myModal" class="modal">
+	<span class="close" onclick="closeFunction()">&times;</span>
+	<img class="modal-content" id="img01">
+     <div id="caption"></div>
+</div>
+
+
+<div class="container">
+    <div id="inner_container">
+    	<div class="content" id="content_call"> 
+     	   <div class="title">
+        	<h2>CONTACT US!</h2>
+        </div>
+     	   <p id="p_index">
+           <b>251 High St, Penrith 2750</b><br/>
+           <img onclick="displayFunction(this)" alt="" class="img_map" src="images/map.jpg"/>
+     	   </p>
+		</div>
+    </div>
+    <div id="inner_container">
+    	<div class="content" id="content_call"> 
+     	   <div class="title">
+        	<h2>OPENING HOURS</h2>
+        </div>
+     	   <p id="p_index">
+           <b>OPEN 7 DAYS</b>
+           </p>
+           <table id="table_hours">
+           <th id="th_hours">
+           	Lunch
+           </th><tr>
+           	<td>Mon-Sat</td>
+            <td>11am-2:30pm</td>
+           </tr><th id="th_hours">
+           	Dinner
+           </th><tr>
+           	<td>Sun-Thurs</td>
+            <td>5pm-9:30pm</td>
+           </tr><tr>
+           	<td>Fri-Sat</td>
+            <td>5pm-10pm</td>
+           </tr>
+           </table>
+		</div>
+    </div>
+    <div id="inner_container">
+    <div class="content" id="content_call"> 
+       	   	<div class="title">
+        		<h2>CALL!</h2>
+        	</div>
+      	   	<p id="p_index">
+            Call us for either <b>takeaway</b>, or <b>delivery</b> orders.<br/>
+           	<b>Tel:</b> 02 4732 2362<br/>
+           	<b>Mob:</b> 0422 128 165
+        	</p>
+		</div>
+        <div class="content" id="content_call"> 
+       	   	<div class="title">
+        		<h2>BOOK AHEAD!</h2>
+        	</div>
+      	   	<p id="p_index">
+           	Simply call and let us know when you want to eat!
+        	</p>
+		</div>
+    </div>
+</div>
+
+
+<!--*************************** Footer section ***************************-->
+<div class="footer">
+	<p id="p_footer">&copy; Aroy-D Thai Restaurant | Shop 1, 251 High St Penrith, NSW 2750 
+    | Tel: 02 4732 2362, Mob: 0422 128 165</p>
+</div>
+
+<script>
+	var modal = document.getElementById('myModal');
+	var modalImg = document.getElementById("img01");
+	var captionText = document.getElementById("caption");
+	function displayFunction(image){
+		modal.style.display = "block";
+   		modalImg.src = image.src;
+	}
+	function closeFunction() { 
+		modal.style.display = "none";
+	}
+</script>
+</body>
+</html>

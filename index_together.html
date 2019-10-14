@@ -1,0 +1,1522 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Home</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+
+<body>
+
+<!-- Top Navigation Menu Bar section (non-scrolling title + buttons links) -->
+<div class="navigation_bar">
+	<div class="top"></div>
+	<h1 id="h1_title">Aroy-D</h1>
+	<h1 id="h1_subtitle">Thai Restaurant</h1>
+	<div class="links">
+		<table id="table_links">
+			<tr>
+				<th href="past.html" id="th_selecting">	
+					<a>Menu</a>
+				</th>
+				<th href="past.html" id="th_selecting">
+					<a>About</a>	
+				</th>
+           		<th href="past.html" id="th_selecting">
+					<a>Location</a>	
+				</th>
+            	<th href="past.html" id="th_selecting">
+					<a>Contact</a>	
+				</th>
+			</tr>
+		</table>
+	</div>
+
+</div>
+
+<div class="space"></div>
+
+<!-- Pick up deals, Free home delivery, call now, and book ahead sections -->
+
+<div class="container">
+	<div class="content" id="content_pickup"> 
+		<div class="title">
+        	<h2>PICK UP DEALS!</h2>
+        </div>
+        <p id="p_index">
+        Pick up your food and recieve <b>10% OFF!</b>
+        </p>
+        <div class="inner_content">
+        	<p id="p_index">
+        	<b>Orders over $30</b><br/>
+        	> Recieve a free 1.25L bottle of soft drink
+        	</p>
+        </div>
+        <div class="inner_content">
+        <p id="p_index">
+        <b>Orders over $70</b><br/>
+        > Recieve a free 1.25L bottle of soft drink <b>AND</b><br/>
+        > 1x serving of:
+        Spring Rolls/ Money Bags/ Curry Puffs.
+        </p>
+        </div>
+	</div>
+
+	<div class="content" id="content_delivery"> 
+        <div class="title">
+        	<h2>FREE HOME DELIVERY!</h2>
+        </div>
+        <p id="p_index">
+        If it's 15 minutes away, we'll deliver. <b>FREE!</b>
+        </p>
+        <p>
+        Areas include:
+        Penrith, Emu Plains, Glenmore Park, Werrington, Cranebrook, 
+        Claremont Meadows and close surrounding areas.
+        </p>
+	</div>
+    
+    <div id="inner_container">
+    	<div class="content" id="content_call"> 
+     	   <div class="title">
+        	<h2>CALL NOW AT!</h2>
+        </div>
+     	   <p id="p_index">
+     	   <b>Tel:</b> 02 4732 2362<br/>
+           <b>Mob:</b> 0422 128 165
+     	   </p>
+		</div>
+   		<div class="content" id="content_call"> 
+       	   	<div class="title">
+        		<h2>BOOK AHEAD!</h2>
+        	</div>
+      	   	<p id="p_index">
+           	Simply call and let us know when you want to eat!
+        	</p>
+		</div>
+    </div>
+</div>
+
+<div class="divider"></div>
+
+<!-- Pop up image that overlays the entire page, showing the food -->
+<div id="myModal" class="modal">
+	<span class="close" onclick="closeFunction()">&times;</span>
+	<img class="modal-content" id="img01">
+     <div id="caption"></div>
+</div>
+
+<h2 id="h2_headings">MENU</h2>
+<div class="menu">
+	<!-- Menu sub section: ENTREES ------------------------------------------------------------->
+	<div class="sub_menu">
+    	<h3>ENTREES</h3>
+        <div id="sub_menu_half">
+        <div>
+        	<table>
+            <th id="th_menu">
+        	<img onclick="displayFunction(this)" alt="" class="img_menu" src="images/chichencashew.jpg">
+            </th>
+            <th id="th_menu" class="item_words">
+            	<div>
+        		<p id="p_menu_title">1.&ensp;&ensp;Thai Sausage</p>
+                <p id="p_menu_price">$8.50</p>
+                </div>
+            	<p id="p_menu_description">(6 pieces)</p>
+            </th>
+            </table>
+        </div>
+        <div>
+        	<table>
+            <th id="th_menu">
+        	<img onclick="displayFunction(this)" alt="" class="img_menu" src="images/chichencashew.jpg">
+            </th>
+            <th id="th_menu" class="item_words">
+            	<div>
+        		<p id="p_menu_title">2.&ensp;&ensp;Crab Meat Sausage</p>
+				<p id="p_menu_price">$8.50</p>
+                </div>
+            	<p id="p_menu_description">(4 pieces)</p>
+            </th>
+            </table>
+        </div>
+        <div>
+        	<table>
+            <th id="th_menu">
+        	<img onclick="displayFunction(this)" alt="" class="img_menu" src="images/chichencashew.jpg">
+            </th>
+            <th id="th_menu" class="item_words">
+            	<div>
+        		<p id="p_menu_title">3.&ensp;&ensp;Geio Grob</p>
+                <p id="p_menu_price">$8.50</p>
+                </div>
+            	<p id="p_menu_description">(6 pieces)</p>
+            </th>
+            </table>
+        </div>
+        <div>
+        	<table>
+            <th id="th_menu">
+        	<img onclick="displayFunction(this)" alt="" class="img_menu" src="editted photos/4 spring rolls.jpg">
+            </th>
+            <th id="th_menu" class="item_words">
+        		<div>
+                <p id="p_menu_title">4.&ensp;&ensp;Spring Rolls</p>
+                <p id="p_menu_price">$8.50</p>
+            	</div>
+                <p id="p_menu_description">(4 pieces)</p>
+            </th>
+            </table>
+        </div>
+        <div>
+        	<table>
+            <th id="th_menu">
+        	<img onclick="displayFunction(this)" alt="" class="img_menu" src="images/chichencashew.jpg">
+            </th>
+            <th id="th_menu" class="item_words">
+        		<div>
+                <p id="p_menu_title">5.&ensp;&ensp;Vegetarian Spring Rolls</p>
+                <p id="p_menu_price">$8.50</p>
+            	</div>
+                <p id="p_menu_description">(4 pieces)</p>
+            </th>
+            </table>
+        </div>
+        <div>
+        	<table>
+            <th id="th_menu">
+        	<img onclick="displayFunction(this)" alt="" class="img_menu" src="editted photos/6 curry puffs.jpg">
+            </th>
+            <th id="th_menu" class="item_words">
+        		<div>
+                <p id="p_menu_title">6.&ensp;&ensp;Curry Puffs</p>
+                <p id="p_menu_price">$8.50</p>
+            	</div>
+                <p id="p_menu_description">(4 pieces)</p>
+            </th>
+            </table>
+        </div>
+        <div>
+        	<table>
+            <th id="th_menu">
+        	<img onclick="displayFunction(this)" alt="" class="img_menu" src="images/chichencashew.jpg">
+            </th>
+            <th id="th_menu" class="item_words">
+        		<div>
+                <p id="p_menu_title">7.&ensp;&ensp;Vegetarian Curry Puffs</p>
+                <p id="p_menu_price">$8.50</p>
+            	</div>
+                <p id="p_menu_description">(4 pieces)</p>
+            </th>
+            </table>
+        </div>
+        <div>
+        	<table>
+            <th id="th_menu">
+        	<img onclick="displayFunction(this)" alt="" class="img_menu" src="images/chichencashew.jpg">
+            </th>
+            <th id="th_menu" class="item_words">
+        		<div>
+                <p id="p_menu_title">8.&ensp;&ensp;Fish Cakes</p>
+                <p id="p_menu_price">$8.50</p>
+            	</div>
+                <p id="p_menu_description">(5 pieces)</p>
+            </th>
+            </table>
+        </div>
+        <div>
+        	<table>
+            <th id="th_menu">
+        	<img onclick="displayFunction(this)" alt="" class="img_menu" src="images/chichencashew.jpg">
+            </th>
+            <th id="th_menu" class="item_words">
+        		<div>
+                <p id="p_menu_title">9.&ensp;&ensp;Money Bags</p>
+                <p id="p_menu_price">$8.50</p>
+            	</div>
+                <p id="p_menu_description">(4 pieces)</p>
+            </th>
+            </table>
+        </div>
+        </div>
+        <div id="sub_menu_half">
+        <div>
+        	<table>
+            <th id="th_menu">
+        	<img onclick="displayFunction(this)" alt="" class="img_menu" src="images/chichencashew.jpg">
+            </th>
+            <th id="th_menu" class="item_words">
+        		<div>
+                <p id="p_menu_title">10.&ensp;Chicken Wings</p>
+                <p id="p_menu_price">$8.50</p>
+            	</div>
+                <p id="p_menu_description">(5 pieces)</p>
+            </th>
+            </table>
+        </div>
+        <div>
+        	<table>
+            <th id="th_menu">
+        	<img onclick="displayFunction(this)" alt="" class="img_menu" src="images/chichencashew.jpg">
+            </th>
+            <th id="th_menu" class="item_words">
+        		<div>
+                <p id="p_menu_title">11.&ensp;Nok Tod</p>
+                <p id="p_menu_price">$8.50</p>
+            	</div>
+                <p id="p_menu_description">(4 pieces)</p>
+            </th>
+            </table>
+        </div>
+        <div>
+        	<table>
+            <th id="th_menu">
+        	<img onclick="displayFunction(this)" alt="" class="img_menu" src="editted photos/12 sat chi.jpg">
+            </th>
+            <th id="th_menu" class="item_words">
+        		<div>
+                <p id="p_menu_title">12.&ensp;Satay Chicken</p>
+                <p id="p_menu_price">$9.00</p>
+            	</div>
+                <p id="p_menu_description">(4 pieces)</p>
+            </th>
+            </table>
+        </div>
+        <div>
+        	<table>
+            <th id="th_menu">
+        	<img onclick="displayFunction(this)" alt="" class="img_menu" src="images/chichencashew.jpg">
+            </th>
+            <th id="th_menu" class="item_words">
+        		<div>
+                <p id="p_menu_title">13.&ensp;Coconut Prawns</p>
+                <p id="p_menu_price">$10.00</p>
+            	</div>
+                <p id="p_menu_description">(4 pieces)</p>
+            </th>
+            </table>
+        </div>
+        <div>
+        	<table>
+            <th id="th_menu">
+        	<img onclick="displayFunction(this)" alt="" class="img_menu" src="images/chichencashew.jpg">
+            </th>
+            <th id="th_menu" class="item_words">
+        		<div>
+                <p id="p_menu_title">14.&ensp;Gai Ho Bi Toey</p>
+                <p id="p_menu_price">$10.00</p>
+            	</div>
+                <p id="p_menu_description">(4 pieces)</p>
+            </th>
+            </table>
+        </div>
+        <div>
+        	<table>
+            <th id="th_menu">
+        	<img onclick="displayFunction(this)" alt="" class="img_menu" src="images/chichencashew.jpg">
+            </th>
+            <th id="th_menu" class="item_words">
+        		<div>
+                <p id="p_menu_title">15.&ensp;Mixed Entree</p>
+                <p id="p_menu_price">$10.00</p>
+            	</div>
+                <p id="p_menu_description">1 piece of each: Satay Chicken, 
+                Spring Roll,Curry Puff, Fish Cake, Geio Tod.</p>
+            </th>
+            </table>
+        </div>
+        <div>
+        	<table>
+            <th id="th_menu">
+        	<img onclick="displayFunction(this)" alt="" class="img_menu" src="images/chichencashew.jpg">
+            </th>
+            <th id="th_menu" class="item_words">
+        		<div>
+                <p id="p_menu_title">16. Taw Hu Tod</p>
+                <p id="p_menu_price">$7.50</p>
+            	</div>
+                <p id="p_menu_description">Deep fried bean curd served with a 
+                special sauce and sprinkled with crushed peanuts.</p>
+            </th>
+            </table>
+        </div>
+        <div>
+        	<table>
+            <th id="th_menu">
+        	<img onclick="displayFunction(this)" alt="" class="img_menu" src="editted photos/17 dim sim.jpg">
+            </th>
+            <th id="th_menu" class="item_words">
+        		<div>
+                <p id="p_menu_title">17. Dim Sim Chicken</p>
+                <p id="p_menu_price">$8.50</p>
+            	</div>
+                <p id="p_menu_description">(5 pieces)</p>
+            </th>
+            </table>
+        </div>
+        </div>
+    </div>
+
+	<!-- Menu sub section: SOUPS ------------------------------------------------------------->
+    <div class="sub_menu">
+    	<h3>SOUPS</h3>
+        <div id="sub_menu_half">
+        <div>
+        	<table>
+            <th id="th_menu">
+        	<img onclick="displayFunction(this)" alt="" class="img_menu" src="images/chichencashew.jpg">
+            </th>
+            <th id="th_menu" class="item_words">
+        		<p id="p_menu_title">18. Tom Yum Goong</p>
+                <p id="p_menu_price">$9.50</p>
+            </th>
+            </table>
+        </div>
+        <div>
+        	<table>
+            <th id="th_menu">
+        	<img onclick="displayFunction(this)" alt="" class="img_menu" src="editted photos/19 tom yum chi.jpg">
+            </th>
+            <th id="th_menu" class="item_words">
+        		<p id="p_menu_title">19. Tom Yum Chicken</p>
+            	<p id="p_menu_price">$8.50</p>
+            </th>
+            </table>
+        </div>
+        <div>
+        	<table>
+            <th id="th_menu">
+        	<img onclick="displayFunction(this)" alt="" class="img_menu" src="images/chichencashew.jpg">
+            </th>
+            <th id="th_menu" class="item_words">
+        		<p id="p_menu_title">20. Tom Yum Seafood</p>
+            	<p id="p_menu_price">$9.50</p>
+            </th>
+            </table>
+        </div>
+        <div>
+        	<table>
+            <th id="th_menu">
+        	<img onclick="displayFunction(this)" alt="" class="img_menu" src="editted photos/4 spring rolls.jpg">
+            </th>
+            <th id="th_menu" class="item_words">
+        		<p id="p_menu_title">21. Tom Kha Gai</p>
+            	<p id="p_menu_price">$8.50</p>
+            </th>
+            </table>
+        </div>
+        </div>
+        <div id="sub_menu_half">
+        <div>
+        	<table>
+            <th id="th_menu">
+        	<img onclick="displayFunction(this)" alt="" class="img_menu" src="editted photos/22 po tak.jpg">
+            </th>
+            <th id="th_menu" class="item_words">
+        		<p id="p_menu_title">22. Po Tak</p>
+            	<p id="p_menu_price">$9.50</p>
+            </th>
+            </table>
+        </div>
+        <div>
+        	<table>
+            <th id="th_menu">
+        	<img onclick="displayFunction(this)" alt="" class="img_menu" src="images/chichencashew.jpg">
+            </th>
+            <th id="th_menu" class="item_words">
+        		<div>
+                <p id="p_menu_title">23. Tom Yum Hed</p>
+                <p id="p_menu_price">$8.00</p>
+            	</div>
+                <p id="p_menu_description">Tom Yum mushroom soup.</p>
+            </th>
+            </table>
+        </div>
+        <div>
+        	<table>
+            <th id="th_menu">
+        	<img onclick="displayFunction(this)" alt="" class="img_menu" src="images/chichencashew.jpg">
+            </th>
+            <th id="th_menu" class="item_words">
+        		<div>
+                <p id="p_menu_title">24. Tom Kha Hed</p>
+                <p id="p_menu_price">$8.00</p>
+            	</div>
+                <p id="p_menu_description">Tom Kha mushroom soup with coconut milk.</p>
+            </th>
+            </table>
+        </div>
+        </div>     	
+    </div>
+    
+    <!-- Menu sub section: THAI SALAD DISHES ------------------------------------------------------>
+    <div class="sub_menu">
+    	<h3>THAI SALAD DISHES</h3>
+        <div id="sub_menu_half">
+        <div>
+        	<table>
+            <th id="th_menu">
+        	<img onclick="displayFunction(this)" alt="" class="img_menu" src="images/chichencashew.jpg">
+            </th>
+            <th id="th_menu" class="item_words">
+        		<p id="p_menu_title">25. Yum Puk</p>
+                <p id="p_menu_price">$13.00</p>
+            </th>
+            </table>
+        </div>
+        <div>
+        	<table>
+            <th id="th_menu">
+        	<img onclick="displayFunction(this)" alt="" class="img_menu" src="editted photos/26 bf salad.jpg">
+            </th>
+            <th id="th_menu" class="item_words">
+        		<div>
+                <p id="p_menu_title">26. Yum Nua</p>
+                <p id="p_menu_price">$14.90</p>
+            	</div>
+                <p id="p_menu_description">BBQ warm Beef mixed with salad andThai dressing.</p>
+            </th>
+            </table>
+        </div>
+        <div>
+        	<table>
+            <th id="th_menu">
+        	<img onclick="displayFunction(this)" alt="" class="img_menu" src="editted photos/27 pork salad.jpg">
+            </th>
+            <th id="th_menu" class="item_words">
+        		<div>
+                <p id="p_menu_title">27. Yum Moo Yang Salad</p>
+                <p id="p_menu_price">$14.90</p>
+            	</div>
+                <p id="p_menu_description">BBQ warm Pork mixed with salad andThai dressing.</p>
+            </th>
+            </table>
+        </div>
+        <div>
+        	<table>
+            <th id="th_menu">
+        	<img onclick="displayFunction(this)" alt="" class="img_menu" src="editted photos/4 spring rolls.jpg">
+            </th>
+            <th id="th_menu" class="item_words">
+        		<div>
+                <p id="p_menu_title">28. Yum Gai</p>
+                <p id="p_menu_price">$14.90</p>
+            	</div>
+                <p id="p_menu_description">BBQ warm Chicken mixed with salad and
+                							Thai dressing.</p>
+            </th>
+            </table>
+        </div>
+        <div>
+        	<table>
+            <th id="th_menu">
+        	<img onclick="displayFunction(this)" alt="" class="img_menu" src="images/chichencashew.jpg">
+            </th>
+            <th id="th_menu" class="item_words">
+        		<div>
+                <p id="p_menu_title">29. Larb Gai</p>
+                <p id="p_menu_price">$14.90</p>
+            	</div>
+                <p id="p_menu_description">Minced Chicken sprinkled with lemon juice 
+                							and chilli, then garnished with mint leaves.</p>
+            </th>
+            </table>
+        </div>
+        </div>
+        <div id="sub_menu_half">
+        <div>
+        	<table>
+            <th id="th_menu">
+        	<img onclick="displayFunction(this)" alt="" class="img_menu" src="images/chichencashew.jpg">
+            </th>
+            <th id="th_menu" class="item_words">
+        		<div>
+                <p id="p_menu_title">30. Larb Ped</p>
+                <p id="p_menu_price">$15.90</p>
+            	</div>
+                <p id="p_menu_description">Roast minced Duck sprinkled with lemon juice
+                							and chilli, then garnished with mint leaves.</p>
+            </th>
+            </table>
+        </div>
+        <div>
+        	<table>
+            <th id="th_menu">
+        	<img onclick="displayFunction(this)" alt="" class="img_menu" src="images/chichencashew.jpg">
+            </th>
+            <th id="th_menu" class="item_words">
+        		<div>
+                <p id="p_menu_title">31. Yum Pa Muk</p>
+                <p id="p_menu_price">$15.90</p>
+            	</div>
+                <p id="p_menu_description">Squid mixed with salad and Thai dressing.</p>
+            </th>
+            </table>
+        </div>
+        <div>
+        	<table>
+            <th id="th_menu">
+        	<img onclick="displayFunction(this)" alt="" class="img_menu" src="images/chichencashew.jpg">
+            </th>
+            <th id="th_menu" class="item_words">
+        		<div>
+                <p id="p_menu_title">32. Yum Talay</p>
+                <p id="p_menu_price">$18.50</p>
+            	</div>
+                <p id="p_menu_description">Seafood mixed with salad and Thai dressing.</p>
+            </th>
+            </table>
+        </div> 
+        <div>
+        	<table>
+            <th id="th_menu">
+        	<img onclick="displayFunction(this)" alt="" class="img_menu" src="images/chichencashew.jpg">
+            </th>
+            <th id="th_menu" class="item_words">
+        		<div>
+                <p id="p_menu_title">33. Yum Ped Yang</p>
+                <p id="p_menu_price">$18.50</p>
+            	</div>
+                <p id="p_menu_description">Roast Duck mixed with salad and Thai
+                							dressing and finished with crushed peanuts.</p>
+            </th>
+            </table>
+        </div> 
+        <div>
+        	<table>
+            <th id="th_menu">
+        	<img onclick="displayFunction(this)" alt="" class="img_menu" src="images/chichencashew.jpg">
+            </th>
+            <th id="th_menu" class="item_words">
+        		<div>
+                <p id="p_menu_title">34. Pla Goong</p>
+                <p id="p_menu_price">$18.50</p>
+            	</div>
+                <p id="p_menu_description">King Prawns mixed with salad and
+                							Thai dressing.</p>
+            </th>
+            </table>
+        </div>   
+        </div>   	
+    </div>
+    
+     <!-- Menu sub section: CURRY ------------------------------------------------------>
+    <div class="sub_menu">
+    	<h3>CURRY DISHES</h3>
+        <table id="meat_selection">
+        	<tr>
+        		<th id="meat_prices">Beef, Chicken and Pork</th>
+                <th>$14.90</th>
+            </tr><tr>
+        		<th id="meat_prices">King Prawns, Mixed Seafood</th>
+                <th>$18.50</th>
+            </tr><tr>
+        		<th id="meat_prices">Fish Fillet</th>
+                <th>$15.90</th>
+            </tr>
+        </table>
+        <div id="sub_menu_half">
+        <div>
+        	<table>
+            <th id="th_menu">
+        	<img onclick="displayFunction(this)" alt="" class="img_menu" src="editted photos/35 red curry.jpg">
+            </th>
+            <th id="th_menu" class="item_words">
+        		<p id="p_menu_title">35. Red Curry</p>
+            	<p id="p_menu_description">Red Curry mixed with vegetables and coconut milk.</p>
+            </th>
+            </table>
+        </div>
+        <div>
+        	<table>
+            <th id="th_menu">
+        	<img onclick="displayFunction(this)" alt="" class="img_menu" src="editted photos/36 panang curry (chi).jpg">
+            </th>
+            <th id="th_menu" class="item_words">
+        		<p id="p_menu_title">36. Panang Curry</p>
+            	<p id="p_menu_description">Panang Curry mixed with vegetables and coconut milk,
+                							topped with crushed peanuts.</p>
+            </th>
+            </table>
+        </div>
+        <div>
+        	<table>
+            <th id="th_menu">
+        	<img onclick="displayFunction(this)" alt="" class="img_menu" src="editted photos/37 green curry.jpg">
+            </th>
+            <th id="th_menu" class="item_words">
+        		<p id="p_menu_title">37. Green Curry</p>
+            	<p id="p_menu_description">Green Curry mixed with vegetables, coconut milk
+                							and bamboo.</p>
+            </th>
+            </table>
+        </div>
+        <div>
+        	<table>
+            <th id="th_menu">
+        	<img onclick="displayFunction(this)" alt="" class="img_menu" src="editted photos/4 spring rolls.jpg">
+            </th>
+            <th id="th_menu" class="item_words">
+        		<p id="p_menu_title">38. Yellow Curry</p>
+            	<p id="p_menu_description">Yellow Curry mixed with potatoes, onion and
+                							carrot, then finished with fried onion.</p>
+            </th>
+            </table>
+        </div>
+        <div>
+        	<table>
+            <th id="th_menu">
+        	<img onclick="displayFunction(this)" alt="" class="img_menu" src="images/chichencashew.jpg">
+            </th>
+            <th id="th_menu" class="item_words">
+        		<div>
+                <p id="p_menu_title">39. Jungle Gang Curry</p>
+                <p id="p_menu_price">+$1</p>
+            	</div>
+                <p id="p_menu_description">Spicy curry without coconut milk.</p>
+            </th>
+            </table>
+        </div>
+        </div>
+        <div id="sub_menu_half">
+        <div>
+        	<table>
+            <th id="th_menu">
+        	<img onclick="displayFunction(this)" alt="" class="img_menu" src="images/chichencashew.jpg">
+            </th>
+            <th id="th_menu" class="item_words">
+        		<div>
+                <p id="p_menu_title">40. Hoe Moak</p>
+                <p id="p_menu_price">+$1</p>
+            	</div>
+                <p id="p_menu_description">Steamed meat of your choice cooked in red curry
+                							with coconut cream and vegetables.</p>
+            </th>
+            </table>
+        </div>
+        <div>
+        	<table>
+            <th id="th_menu">
+        	<img onclick="displayFunction(this)" alt="" class="img_menu" src="images/chichencashew.jpg">
+            </th>
+            <th id="th_menu" class="item_words">
+        		<div>
+                <p id="p_menu_title">41. Chu Chee Curry</p>
+                <p id="p_menu_price">+$1</p>
+            	</div>
+                <p id="p_menu_description">Meat of your choice topped with Chu Chee sauce.</p>
+            </th>
+            </table>
+        </div>
+        <div>
+        	<table>
+            <th id="th_menu">
+        	<img onclick="displayFunction(this)" alt="" class="img_menu" src="images/chichencashew.jpg">
+            </th>
+            <th id="th_menu" class="item_words">
+        		<div>
+                <p id="p_menu_title">42. Massaman Beef</p>
+                <p id="p_menu_price">$14.90</p>
+            	</div>
+                <p id="p_menu_description"></p>
+            </th>
+            </table>
+        </div> 
+        <div>
+        	<table>
+            <th id="th_menu">
+        	<img onclick="displayFunction(this)" alt="" class="img_menu" src="editted photos/43 mas lamb.jpg">
+            </th>
+            <th id="th_menu" class="item_words">
+        		<div>
+                <p id="p_menu_title">43. Massaman Lamb</p>
+                <p id="p_menu_price">$17.90</p>
+            	</div>
+                <p id="p_menu_description"></p>
+            </th>
+            </table>
+        </div> 
+        </div>
+    </div>
+    
+	<!-- Menu sub section: MAIN COURSES ------------------------------------------------------>
+    <div class="sub_menu">
+    	<h3>MAIN COURSES</h3>
+        <p>Beef, Chicken and Pork</p>
+        <p>King Prawns, Mixed Seafood</p>
+        <p>Fish Fillet</p>
+        <div id="sub_menu_half">
+        <div>
+        	<table>
+            <th id="th_menu">
+        	<img onclick="displayFunction(this)" alt="" class="img_menu" src="editted photos/44 pad prik bf.jpg">
+            </th>
+            <th id="th_menu" class="item_words">
+        		<p id="p_menu_title">44. Pad Prik</p>
+            	<p id="p_menu_description">Stir fried fresh chilli and green bean, capsicum, mushroom
+                							and shallot.</p>
+            </th>
+            </table>
+        </div>
+        <div>
+        	<table>
+            <th id="th_menu">
+        	<img onclick="displayFunction(this)" alt="" class="img_menu" src="editted photos/45 pao chi.jpg">
+            </th>
+          <th id="th_menu" class="item_words">
+        		<p id="p_menu_title">45. Pad Kra Payo</p>
+            	<p id="p_menu_description">Stir fried fresh chilli and green bean, capsicum, bamboo 
+                							
+                							and basil leaves.</p>
+            </th>
+            </table>
+        </div>
+        <div>
+        	<table>
+            <th id="th_menu">
+        	<img onclick="displayFunction(this)" alt="" class="img_menu" src="editted photos/46 thai chi.jpg">
+            </th>
+            <th id="th_menu" class="item_words">
+        		<p id="p_menu_title">46. Thai Beef, Chicken or Pork</p>
+            	<p id="p_menu_description">Stir fried broccoli, green beans, onion, capsicum, bamboo,
+                							
+                							carrot and Thai sauce.</p>
+            </th>
+            </table>
+        </div>
+        <div>
+        	<table>
+            <th id="th_menu">
+        	<img onclick="displayFunction(this)" alt="" class="img_menu" src="editted photos/47 peanut chi 2.jpg">
+            </th>
+            <th id="th_menu" class="item_words">
+        		<p id="p_menu_title">47. Pad Peanut Sauce</p>
+            	<p id="p_menu_description">Stir fried with zucchini, onion, capsicum, broccoli
+                							and carrot.</p>
+            </th>
+            </table>
+        </div>
+        <div>
+        	<table>
+            <th id="th_menu">
+        	<img onclick="displayFunction(this)" alt="" class="img_menu" src="editted photos/48 sweet sour chi.jpg">
+            </th>
+            <th id="th_menu" class="item_words">
+        		<p id="p_menu_title">48. Pad Preo Warn</p>
+            	<p id="p_menu_description">Stir fried with capsicum, onion, cucumber, tomato,
+                							pineapple, mushroom, and sweet and sour sauce.</p>
+            </th>
+            </table>
+        </div>
+        <div>
+        	<table>
+            <th id="th_menu">
+        	<img onclick="displayFunction(this)" alt="" class="img_menu" src="editted photos/49 oyster chi.jpg">
+            </th>
+            <th id="th_menu" class="item_words">
+        		<p id="p_menu_title">49. Pad Nam Man Hoi</p>
+            	<p id="p_menu_description">Stir fried with Chinese cabbage, carrot, broccoli, onion
+                							and oyster sauce.</p>
+            </th>
+            </table>
+        </div>
+        <div>
+        	<table>
+            <th id="th_menu">
+        	<img onclick="displayFunction(this)" alt="" class="img_menu" src="editted photos/50 cashew chi.jpg">
+            </th>
+            <th id="th_menu" class="item_words">
+        		<p id="p_menu_title">50. Pad Him Ma Phan</p>
+            	<p id="p_menu_description">Stir fried meat of your choice with cashew nuts.</p>
+            </th>
+            </table>
+        </div>
+        <div>
+        	<table>
+            <th id="th_menu">
+        	<img onclick="displayFunction(this)" alt="" class="img_menu" src="images/chichencashew.jpg">
+            </th>
+            <th id="th_menu" class="item_words">
+        		<p id="p_menu_title">51. Pad Khing</p>
+            	<p id="p_menu_description">Stir fried meat of your choice, with mushroom, onion,
+                							baby corn, scallion and ginger</p>
+            </th>
+            </table>
+        </div> 
+        <div>
+        	<table>
+            <th id="th_menu">
+        	<img onclick="displayFunction(this)" alt="" class="img_menu" src="editted photos/52 pra lam chi.jpg">
+            </th>
+            <th id="th_menu" class="item_words">
+            	<div>
+        		<p id="p_menu_title">52. Pra Lam Long Song</p>
+                <p id="p_menu_price">+$1</p>
+                </div>
+            	<p id="p_menu_description">Tender sliced meat of your choice with veggies, topped with peanut satay sauce.</p>
+            </th>
+            </table>
+        </div>
+        <div>
+        	<table>
+            <th id="th_menu">
+        	<img onclick="displayFunction(this)" alt="" class="img_menu" src="images/chichencashew.jpg">
+            </th>
+            <th id="th_menu" class="item_words">
+        		<p id="p_menu_title">53. Nua Ka Ta</p>
+            	<p id="p_menu_description">Stir fried beef with snow peas, onion, capsicum, bamboo, zucchini, broccoli, carrot and green beans.</p>
+            </th>
+            </table>
+        </div>
+        <div>
+        	<table>
+            <th id="th_menu">
+        	<img onclick="displayFunction(this)" alt="" class="img_menu" src="editted photos/54 sizzling chi.jpg">
+            </th>
+            <th id="th_menu" class="item_words">
+        		<p id="p_menu_title">54. Gai Ka Ta</p>
+            	<p id="p_menu_description">Stir fried chicken with green apple, onion, carrot, capsicum, and celery in a special Thai sauce.</p>
+            </th>
+            </table>
+        </div>
+        <div>
+        	<table>
+            <th id="th_menu">
+        	<img onclick="displayFunction(this)" alt="" class="img_menu" src="images/chichencashew.jpg">
+            </th>
+            <th id="th_menu" class="item_words">
+        		<p id="p_menu_title">55. Soya Pepper</p>
+            	<p id="p_menu_description">Stir fried tender meat of your choice with onion, shallots, mushroom and black pepper sauce.</p>
+            </th>
+            </table>
+        </div>
+        <div>
+        	<table>
+            <th id="th_menu">
+        	<img onclick="displayFunction(this)" alt="" class="img_menu" src="editted photos/56 pad prik khing chi.jpg">
+            </th>
+            <th id="th_menu" class="item_words">
+        		<p id="p_menu_title">56. Pad Prik Khing</p>
+            	<p id="p_menu_description">Stir fried slice of meat of your choice with Prik Khing paste and beans finished with lime leaves.</p>
+            </th>
+            </table>
+        </div>
+        </div>
+        <div id="sub_menu_half">
+        <div>
+        	<table>
+            <th id="th_menu">
+        	<img onclick="displayFunction(this)" alt="" class="img_menu" src="images/chichencashew.jpg">
+            </th>
+            <th id="th_menu" class="item_words">
+        		<p id="p_menu_title">57. Gra Tiam Prik Thai</p>
+            	<p id="p_menu_description">Thai stule garlic and pepper meat of your choice.</p>
+            </th>
+            </table>
+        </div>
+        <div>
+        	<table>
+            <th id="th_menu">
+        	<img onclick="displayFunction(this)" alt="" class="img_menu" src="images/chichencashew.jpg">
+            </th>
+            <th id="th_menu" class="item_words">
+        		<p id="p_menu_title">58. Aroy-D Gai Yang</p>
+            	<p id="p_menu_description">(Unfortunately unavailable).</p>
+            </th>
+            </table>
+        </div>
+        <div>
+        	<table>
+            <th id="th_menu">
+        	<img onclick="displayFunction(this)" alt="" class="img_menu" src="images/chichencashew.jpg">
+            </th>
+            <th id="th_menu" class="item_words">
+        		<p id="p_menu_title">59. Gai Yang</p>
+            	<p id="p_menu_description">Thai style chicken marinated in coconut milk and spices, then BBQ.</p>
+            </th>
+            </table>
+        </div>
+        <div>
+        	<table>
+            <th id="th_menu">
+        	<img onclick="displayFunction(this)" alt="" class="img_menu" src="images/chichencashew.jpg">
+            </th>
+            <th id="th_menu" class="item_words">
+        		<p id="p_menu_title">60. Pad Tom Yum</p>
+            	<p id="p_menu_description">Fried meat of your choice with Tom Yum sauce.</p>
+            </th>
+            </table>
+        </div>
+        <div>
+        	<table>
+            <th id="th_menu">
+        	<img onclick="displayFunction(this)" alt="" class="img_menu" src="images/chichencashew.jpg">
+            </th>
+            <th id="th_menu" class="item_words">
+        		<p id="p_menu_title">61. Thai Jow Talay</p>
+            	<p id="p_menu_description">Stir fried mixed seafood in a mild spicy sauce.</p>
+            </th>
+            </table>
+        </div>
+        <div>
+        	<table>
+            <th id="th_menu">
+        	<img onclick="displayFunction(this)" alt="" class="img_menu" src="editted photos/62 snow pea scallops.jpg">
+            </th>
+            <th id="th_menu" class="item_words">
+        		<p id="p_menu_title">62. Snow Peas</p>
+            	<p id="p_menu_description">Stir fried meat of your choice with snow peas and Thai special sauce.</p>
+            </th>
+            </table>
+        </div>
+        <div>
+        	<table>
+            <th id="th_menu">
+        	<img onclick="displayFunction(this)" alt="" class="img_menu" src="images/chichencashew.jpg">
+            </th>
+            <th id="th_menu" class="item_words">
+        		<p id="p_menu_title">63. Pad Pung Curry</p>
+            	<p id="p_menu_description">Stir fried mixed seafood or king prawns with curry powder, onion and shallots.</p>
+            </th>
+            </table>
+        </div>
+        <div>
+        	<table>
+            <th id="th_menu">
+        	<img onclick="displayFunction(this)" alt="" class="img_menu" src="editted photos/64 honey chi.jpg">
+            </th>
+            <th id="th_menu" class="item_words">
+        		<p id="p_menu_title">64. Thai Styled Honey Chilli</p>
+            	<p id="p_menu_description">Deep fried honey chilli.</p>
+            </th>
+            </table>
+        </div>
+        <div>
+        	<table>
+            <th id="th_menu">
+        	<img onclick="displayFunction(this)" alt="" class="img_menu" src="images/chichencashew.jpg">
+            </th>
+            <th id="th_menu" class="item_words">
+        		<p id="p_menu_title">65. Tamarind</p>
+            	<p id="p_menu_description">Stir fried meat of your choice with very special Tamarind sauce, capsicum, snow peas, green peas, onion and carrot.</p>
+            </th>
+            </table>
+        </div>
+        <div>
+        	<table>
+            <th id="th_menu">
+        	<img onclick="displayFunction(this)" alt="" class="img_menu" src="images/chichencashew.jpg">
+            </th>
+            <th id="th_menu" class="item_words">
+        		<p id="p_menu_title">66. BBQ Goong</p>
+            	<p id="p_menu_description">(Unfortunately unavailable).</p>
+            </th>
+            </table>
+        </div>
+        <div>
+        	<table>
+            <th id="th_menu">
+        	<img onclick="displayFunction(this)" alt="" class="img_menu" src="editted photos/67 salt peppepr squid.jpg">
+            </th>
+            <th id="th_menu" class="item_words">
+        		<p id="p_menu_title">67. Aroy-D Salt Pepper</p>
+            	<p id="p_menu_description">Deep fried salt and pepper.</p>
+            </th>
+            </table>
+        </div>
+        <div>
+        	<table>
+            <th id="th_menu">
+        	<img onclick="displayFunction(this)" alt="" class="img_menu" src="images/chichencashew.jpg">
+            </th>
+            <th id="th_menu" class="item_words">
+        		<p id="p_menu_title">68. BBQ Pla Muk</p>
+            	<p id="p_menu_description">Thai style BBQ squid served with Aroy-D sauce.</p>
+            </th>
+            </table>
+        </div>
+        </div>
+    </div>
+    
+    <!-- Menu sub section: VEGETABLE DISHES ------------------------------------------------->
+    <div class="sub_menu">
+    	<h3>VEGETABLE DISHES</h3>
+        <p>ALL 13.50</p>
+        <div id="sub_menu_half">
+        <div>
+        	<table>
+            <th id="th_menu">
+        	<img onclick="displayFunction(this)" alt="" class="img_menu" src="images/chichencashew.jpg">
+            </th>
+            <th id="th_menu" class="item_words">
+        		<p id="p_menu_title">69. Pad Taw Hu</p>
+            	<p id="p_menu_description">Stir fried bean curd with mixed vegetables.</p>
+            </th>
+            </table>
+        </div>
+        <div>
+        	<table>
+            <th id="th_menu">
+        	<img onclick="displayFunction(this)" alt="" class="img_menu" src="images/chichencashew.jpg">
+            </th>
+            <th id="th_menu" class="item_words">
+        		<p id="p_menu_title">70. Pad Pak</p>
+            	<p id="p_menu_description">Stir fried mixed vegetables with oyster sauce.</p>
+            </th>
+            </table>
+        </div>
+        <div>
+        	<table>
+            <th id="th_menu">
+        	<img onclick="displayFunction(this)" alt="" class="img_menu" src="images/chichencashew.jpg">
+            </th>
+            <th id="th_menu" class="item_words">
+        		<p id="p_menu_title">71. Pad Prik Taw Hu</p>
+            	<p id="p_menu_description">Stir fried bean curd with fresh chilli, grean bean, capsicum, onion, mushroom and shallots.</p>
+            </th>
+            </table>
+        </div>
+        <div>
+        	<table>
+            <th id="th_menu">
+        	<img onclick="displayFunction(this)" alt="" class="img_menu" src="editted photos/4 spring rolls.jpg">
+            </th>
+            <th id="th_menu" class="item_words">
+        		<p id="p_menu_title">72. Pad Kra Payo Taw Hu</p>
+            	<p id="p_menu_description">Stir fried bean curd with green bean, capsicum, onion, bamboo, basil leaves, and chilli.</p>
+            </th>
+            </table>
+        </div>
+        </div>
+        <div id="sub_menu_half">
+        <div>
+        	<table>
+            <th id="th_menu">
+        	<img onclick="displayFunction(this)" alt="" class="img_menu" src="images/chichencashew.jpg">
+            </th>
+            <th id="th_menu" class="item_words">
+                <p id="p_menu_title">73. Phalam Pak</p>
+                <p id="p_menu_description">Stir fried mixed vegetables topped with peanut sauce.</p>
+            </th>
+            </table>
+        </div>
+        <div>
+        	<table>
+            <th id="th_menu">
+        	<img onclick="displayFunction(this)" alt="" class="img_menu" src="images/chichencashew.jpg">
+            </th>
+            <th id="th_menu" class="item_words">
+                <p id="p_menu_title">74. Taw Hu Pad Him Ma Phan</p>
+                <p id="p_menu_description">Stir fried bean curd with cashew nut.</p>
+            </th>
+            </table>
+        </div>
+        <div>
+        	<table>
+            <th id="th_menu">
+        	<img onclick="displayFunction(this)" alt="" class="img_menu" src="images/chichencashew.jpg">
+            </th>
+            <th id="th_menu" class="item_words">
+                <p id="p_menu_title">75. Pad Preo Warn Pak</p>
+                <p id="p_menu_description">Stir fried mixed vegetables with sweet and sour sauce.</p>
+            </th>
+            </table>
+        </div>
+        </div>
+    </div>
+    
+     <!-- Menu sub section: DUCK ------------------------------------------------->
+    <div class="sub_menu">
+    	<h3>DUCK</h3>
+        <div id="sub_menu_half">
+        <div>
+        	<table>
+            <th id="th_menu">
+        	<img onclick="displayFunction(this)" alt="" class="img_menu" src="images/chichencashew.jpg">
+            </th>
+            <th id="th_menu" class="item_words">
+        		<div>
+                <p id="p_menu_title">76. Choo Chee Duck</p>
+                <p id="p_menu_price">$18.50</p>
+            	</div>
+                <p id="p_menu_description">BBQ Duck topped with Choo Chee sauce.</p>
+            </th>
+            </table>
+        </div>
+        </div>
+        <div id="sub_menu_half">
+        <div>
+        	<table>
+            <th id="th_menu">
+        	<img onclick="displayFunction(this)" alt="" class="img_menu" src="editted photos/77 thai roast duck.jpg">
+            </th>
+            <th id="th_menu" class="item_words">
+        		<div>
+                <p id="p_menu_title">77. BBQ Duck</p>
+                <p id="p_menu_price">$24.00</p>
+            	</div>
+                <p id="p_menu_description">With salad on the side served with special chilli sauce.</p>
+            </th>
+            </table>
+        </div>   
+        </div>   	
+    </div>
+    
+    <!-- Menu sub section: CRAB ------------------------------------------------->
+    <div class="sub_menu">
+    	<h3>CRAB</h3>
+        <div id="sub_menu_half">
+        <div>
+        	<table>
+            <th id="th_menu">
+        	<img onclick="displayFunction(this)" alt="" class="img_menu" src="editted photos/78 salt pepper soft shell crab.jpg">
+            </th>
+            <th id="th_menu" class="item_words">
+        		<div>
+                <p id="p_menu_title">78. Aroy-D Salt & Pepper Soft Shell Crab</p>
+                <p id="p_menu_price">$19.50</p>
+            	</div>
+                <p id="p_menu_description">BBQ Duck topped with Choo Chee sauce.</p>
+            </th>
+            </table>
+        </div>
+        </div>
+    </div>
+    
+    <!-- Menu sub section: WHOLE FISH ------------------------------------------------->
+    <div class="sub_menu">
+    	<h3>WHOLE FISH</h3>
+        <p>(Market Price)</p>
+        <div id="sub_menu_half">
+        <div>
+        	<table>
+            <th id="th_menu">
+        	<img onclick="displayFunction(this)" alt="" class="img_menu" src="editted photos/79 pla pad prik.jpg">
+            </th>
+            <th id="th_menu" class="item_words">
+                <p id="p_menu_title">79. Pla Pad Prik</p>
+                <p id="p_menu_description">Deep fried whole fish topped with special sauce.</p>
+            </th>
+            </table>
+        </div>
+        <div>
+        	<table>
+            <th id="th_menu">
+        	<img onclick="displayFunction(this)" alt="" class="img_menu" src="images/chichencashew.jpg">
+            </th>
+            <th id="th_menu" class="item_words">
+                <p id="p_menu_title">80. Pla Jien</p>
+                <p id="p_menu_description">Deep fried whole fish topped with pork mince ginger and shallot sauce.</p>
+            </th>
+            </table>
+        </div>
+        </div>
+        <div id="sub_menu_half">
+        <div>
+        	<table>
+            <th id="th_menu">
+        	<img onclick="displayFunction(this)" alt="" class="img_menu" src="images/chichencashew.jpg">
+            </th>
+            <th id="th_menu" class="item_words">
+                <p id="p_menu_title">81. Pla Chu Chee</p>
+                <p id="p_menu_description">Deep fried whole fish topped with Chu Chee sauce.</p>
+            </th>
+            </table>
+        </div>
+        <div>
+        	<table>
+            <th id="th_menu">
+        	<img onclick="displayFunction(this)" alt="" class="img_menu" src="images/chichencashew.jpg">
+            </th>
+            <th id="th_menu" class="item_words">
+                <p id="p_menu_title">82. Aroy-D Pla Tod</p>
+                <p id="p_menu_description">Deep fried whole fish topped with Aroy-D sauce.</p>
+            </th>
+            </table>
+        </div>
+        </div>
+    </div>
+    
+    <!-- Menu sub section: NOODLES ------------------------------------------------->
+    <div class="sub_menu">
+    	<h3>NOODLES</h3>
+        <table id="meat_selection">
+        	<tr>
+        		<th id="meat_prices">Vegetables</th>
+                <th>$13.50</th>
+            </tr><tr>
+        		<th id="meat_prices">Beef, Chicken, Pork</th>
+                <th>$14.90</th>
+            </tr><tr>
+        		<th id="meat_prices">King Prawns, Mixed Seafood</th>
+                <th>$18.50</th>
+            </tr>
+        </table>
+        <div id="sub_menu_half">
+        <div>
+        	<table>
+            <th id="th_menu">
+        	<img onclick="displayFunction(this)" alt="" class="img_menu" src="images/chichencashew.jpg">
+            </th>
+            <th id="th_menu" class="item_words">
+        		<p id="p_menu_title">83. Pad Thai</p>
+            	<p id="p_menu_description">Stir fried noodles Thai style.</p>
+            </th>
+            </table>
+        </div>
+        <div>
+        	<table>
+            <th id="th_menu">
+        	<img onclick="displayFunction(this)" alt="" class="img_menu" src="images/chichencashew.jpg">
+            </th>
+            <th id="th_menu" class="item_words">
+        		<p id="p_menu_title">84. Hokkien Pad Kee Mao</p>
+            	<p id="p_menu_description">Stir fried Hokkien noodles with chilli and basil.</p>
+            </th>
+            </table>
+        </div>
+        <div>
+        	<table>
+            <th id="th_menu">
+        	<img onclick="displayFunction(this)" alt="" class="img_menu" src="editted photos/85 kway teowpad kee mao tafu.jpg">
+            </th>
+            <th id="th_menu" class="item_words">
+        		<p id="p_menu_title">85. Kway Teow Pad Kee Mao</p>
+            	<p id="p_menu_description">Stir fried spiced Thai noodle with chilli and basil.</p>
+            </th>
+            </table>
+        </div>
+        <div>
+        	<table>
+            <th id="th_menu">
+        	<img onclick="displayFunction(this)" alt="" class="img_menu" src="editted photos/86 pad see ew chi.jpg">
+            </th>
+            <th id="th_menu" class="item_words">
+        		<p id="p_menu_title">86. Pad See Ew</p>
+            	<p id="p_menu_description">Stir fried rice noodles with soy sauce, egg and vegetables.</p>
+            </th>
+            </table>
+        </div>
+        <div>
+        	<table>
+            <th id="th_menu">
+        	<img onclick="displayFunction(this)" alt="" class="img_menu" src="editted photos/87 mee grob.jpg">
+            </th>
+            <th id="th_menu" class="item_words">
+                <p id="p_menu_title">87. Mee Grob</p>
+                <p id="p_menu_description">Crispy Thai noodles coated with sweet sauce, containing finely sliced pork, prawns, and finished with sprouts and garlic chives.</p>
+            </th>
+            </table>
+        </div>
+        <div>
+        	<table>
+            <th id="th_menu">
+        	<img onclick="displayFunction(this)" alt="" class="img_menu" src="images/chichencashew.jpg">
+            </th>
+            <th id="th_menu" class="item_words">
+                <p id="p_menu_title">88. Singapore Noodles</p>
+                <p id="p_menu_description">Stir fried rice stick noodle, curry powder and vegetables.</p>
+            </th>
+            </table>
+        </div>
+        </div>
+        <div id="sub_menu_half">
+        <div>
+        	<table>
+            <th id="th_menu">
+        	<img onclick="displayFunction(this)" alt="" class="img_menu" src="editted photos/89 teriyaki noodle pork.jpg">
+            </th>
+            <th id="th_menu" class="item_words">
+                <p id="p_menu_title">89. Teriyaki Noodles</p>
+                <p id="p_menu_description">Stir fried fresh egg noodle with Teriyaki sauce and vegetables.</p>
+            </th>
+            </table>
+        </div>
+        <div>
+        	<table>
+            <th id="th_menu">
+        	<img onclick="displayFunction(this)" alt="" class="img_menu" src="editted photos/90 hokkien noodle chi.jpg">
+            </th>
+            <th id="th_menu" class="item_words">
+                <p id="p_menu_title">90. Hokkien Noodles</p>
+                <p id="p_menu_description">Stir fried Hokkien noodles with oyster sauce.</p>
+            </th>
+            </table>
+        </div>
+        <div>
+        	<table>
+            <th id="th_menu">
+        	<img onclick="displayFunction(this)" alt="" class="img_menu" src="editted photos/91 lak na crispy noodle.jpg">
+            </th>
+            <th id="th_menu" class="item_words">
+                <p id="p_menu_title">91. Lak Na Noodle</p>
+                <p id="p_menu_description">Stir fried rice noodle topped with gravy sauce.</p>
+            </th>
+            </table>
+        </div>
+        <div>
+        	<table>
+            <th id="th_menu">
+        	<img onclick="displayFunction(this)" alt="" class="img_menu" src="images/chichencashew.jpg">
+            </th>
+            <th id="th_menu" class="item_words">
+                <p id="p_menu_title">92. Stir Fry Peanut Noodles</p>
+            </th>
+            </table>
+        </div> 
+        <div>
+        	<table>
+            <th id="th_menu">
+        	<img onclick="displayFunction(this)" alt="" class="img_menu" src="editted photos/93 cashew nut noodle chi.jpg">
+            </th>
+            <th id="th_menu" class="item_words">
+                <p id="p_menu_title">93. Stir Fry Cashew Noodles</p>
+            </th>
+            </table>
+        </div>
+        <div>
+        	<table>
+            <th id="th_menu">
+        	<img onclick="displayFunction(this)" alt="" class="img_menu" src="editted photos/94 laksa chi.jpg">
+            </th>
+            <th id="th_menu" class="item_words">
+                <p id="p_menu_title">94. Laksa Noodle Soup</p>
+            </th>
+            </table>
+        </div> 
+        </div>
+    </div>
+    
+    <!-- Menu sub section: RICE ------------------------------------------------->
+    <div class="sub_menu">
+    	<h3>RICE</h3>
+        <div id="sub_menu_half">
+        <div>
+        	<table>
+            <th id="th_menu">
+        	<img onclick="displayFunction(this)" alt="" class="img_menu" src="images/chichencashew.jpg">
+            </th><th id="th_menu" class="item_words">
+        		<p id="p_menu_title">95. Steamed Rice</p>
+            </th></table>
+        </div>
+        <div>
+        	<table>
+            <th id="th_menu">
+        	<img onclick="displayFunction(this)" alt="" class="img_menu" src="images/chichencashew.jpg">
+            </th><th id="th_menu" class="item_words">
+        		<p id="p_menu_title">96. Coconut Rice</p>
+            </th></table>
+        </div>
+        </div>
+        <div id="sub_menu_half">
+        <div>
+        	<table>
+            <th id="th_menu_thicc">
+        	<img onclick="displayFunction(this)" alt="" class="img_menu" src="editted photos/97 fried rice pork.jpg">
+            </th>
+            <th id="th_menu" class="item_words">
+        		<p id="p_menu_title">97. Fried Rice</p>
+            	<div>
+                	<p class="rice" id="p_menu_description"><b>Chicken, Beef or Pork.</b></p>
+                	<p id="p_menu_price">$12.90</p>
+                </div><div>
+                	<p class="rice" id="p_menu_description"><b>Seafood or King Prawns.</b></p>
+                    <p id="p_menu_price">$12.90</p>
+                </div><div>
+                	<p class="rice" id="p_menu_description"><b>Vegetables.</b></p>
+                    <p id="p_menu_price">$12.90</p>
+                </div><div>
+                	<p class="rice" id="p_menu_description"><b>Plain Fried Rice.</b></p>
+                    <p id="p_menu_price">$12.90</p>
+                </div>
+            </th>
+            </table>
+        </div>
+        </div>
+    </div>
+    
+    
+</div>
+
+<!--*************************** CONTACT US ***************************-->
+
+<div class="container">
+	<div class="content" id="content_pickup"> 
+		<div class="title">
+        	<h2>PICK UP DEALS!</h2>
+        </div>
+        <p id="p_index">
+        Pick up your food and recieve <b>10% OFF!</b>
+        </p>
+        <div class="inner_content">
+        	<p id="p_index">
+        	<b>Orders over $30</b><br/>
+        	> Recieve a free 1.25L bottle of soft drink
+        	</p>
+        </div>
+        <div class="inner_content">
+        <p id="p_index">
+        <b>Orders over $70</b><br/>
+        > Recieve a free 1.25L bottle of soft drink <b>AND</b><br/>
+        > 1x serving of:
+        Spring Rolls/ Money Bags/ Curry Puffs.
+        </p>
+        </div>
+	</div>
+
+	<div class="content" id="content_delivery"> 
+        <div class="title">
+        	<h2>FREE HOME DELIVERY!</h2>
+        </div>
+        <p id="p_index">
+        If it's 15 minutes away, we'll deliver. <b>FREE!</b>
+        </p>
+        <p>
+        Areas include:
+        Penrith, Emu Plains, Glenmore Park, Werrington, Cranebrook, 
+        Claremont Meadows and close surrounding areas.
+        </p>
+	</div>
+    
+    <div id="inner_container">
+    	<div class="content" id="content_call"> 
+     	   <div class="title">
+        	<h2>CALL NOW AT!</h2>
+        </div>
+     	   <p id="p_index">
+     	   <b>Tel:</b> 02 4732 2362<br/>
+           <b>Mob:</b> 0422 128 165
+     	   </p>
+		</div>
+   		<div class="content" id="content_call"> 
+       	   	<div class="title">
+        		<h2>BOOK AHEAD!</h2>
+        	</div>
+      	   	<p id="p_index">
+           	Simply call and let us know when you want to eat!
+        	</p>
+		</div>
+    </div>
+</div>
+
+
+<!--*************************** Footer section ***************************-->
+<div class="footer">
+	<p id="p_footer">&copy; Aroy-D Thai Restaurant | Shop 1, 251 High St Penrith, NSW 2750 
+    | Tel: 02 4732 2362, Mob: 0422 128 165</p>
+</div>
+
+<script>
+	var modal = document.getElementById('myModal');
+	var modalImg = document.getElementById("img01");
+	var captionText = document.getElementById("caption");
+	function displayFunction(image){
+		modal.style.display = "block";
+   		modalImg.src = image.src;
+   		captionText.innerHTML = image.parentNode.children(1).children(0).innerHTML;	
+	}
+	function closeFunction() { 
+		modal.style.display = "none";
+	}
+</script>
+</body>
+</html>

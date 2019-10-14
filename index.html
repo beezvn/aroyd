@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Home</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="icon" type="favicon.ico" href="favicon.ico" />
+</head>
+
+<body>
+
+<!-- Top Navigation Menu Bar section (non-scrolling title + buttons links) -->
+<div class="navigation_bar">
+	<div class="top"></div>
+	<h1 id="h1_title">Aroy-D</h1>
+	<h1 id="h1_subtitle">Thai Restaurant</h1>
+	<div class="links">
+		<table id="table_links">
+			<tr>
+            	<th class="th_selecting" id="th_order">	
+					<a id="order_text" href="https://online.kaarot.com.au/aroyd-Penrith/">ORDER</a>
+				</th>
+            	<th class="th_selecting">	
+					<a href="index.html" id="current_page">Home</a>
+				</th>
+				<th class="th_selecting">	
+					<a href="menu.html">Menu</a>
+				</th>
+                <th class="th_selecting">	
+					<a href="special_menu.html">Specials</a>
+				</th>
+            	<th class="th_selecting">
+					<a href="contact.html">Contact</a>	
+				</th>
+			</tr>
+		</table>
+	</div>
+
+</div>
+
+<div class="space"></div>
+
+<!-- Pick up deals, Free home delivery, call now, and book ahead sections -->
+
+<div class="container">
+	<div class="content" id="content_pickup"> 
+		<div class="title">
+        	<h2>PICK UP DEALS!</h2>
+        </div>
+        <p id="p_index">
+        Pick up your food and recieve <b>10% OFF!</b>
+        </p>
+        <div class="inner_content">
+        	<p id="p_index">
+        	<b>Orders over $30</b><br/>
+        	> Recieve a free 1.25L bottle of soft drink
+        	</p>
+        </div>
+        <div class="inner_content">
+        <p id="p_index">
+        <b>Orders over $70</b><br/>
+        > Recieve a free 1.25L bottle of soft drink <b>AND</b><br/>
+        > 1x serving of:
+        Spring Rolls/ Money Bags/ Curry Puffs.
+        </p>
+        </div>
+	</div>
+
+	<div class="content" id="content_delivery"> 
+        <div class="title">
+        	<h2>FREE HOME DELIVERY!</h2>
+        </div>
+        <p id="p_index">
+        If it's 15 minutes away, we'll deliver. <b>FREE!</b>
+        </p>
+        <p>
+        <b>Areas include:</b>
+        Penrith, Emu Plains, Glenmore Park, Werrington, Cranebrook, 
+        Claremont Meadows and close surrounding areas.
+        </p>
+	</div>
+    
+    <div id="inner_container">
+    	<div class="content" id="content_call"> 
+     	   <div class="title">
+        	<h2>CALL NOW AT!</h2>
+        </div>
+     	   <p id="p_index">
+     	   <b>Tel:</b> 02 4732 2362<br/>
+           <b>Mob:</b> 0422 128 165
+     	   </p>
+		</div>
+   		<div class="content" id="content_call"> 
+       	   	<div class="title">
+        		<h2>BOOK AHEAD!</h2>
+        	</div>
+      	   	<p id="p_index">
+           	Simply call and let us know when you want to eat!
+        	</p>
+		</div>
+    </div>
+</div>
+
+
+<!--*************************** Footer section ***************************-->
+<div class="footer">
+	<p id="p_footer">&copy; Aroy-D Thai Restaurant | Shop 1, 251 High St Penrith, NSW 2750 
+    | Tel: 02 4732 2362, Mob: 0422 128 165</p>
+</div>
+
+<script>
+	var modal = document.getElementById('myModal');
+	var modalImg = document.getElementById("img01");
+	var captionText = document.getElementById("caption");
+	function displayFunction(image){
+		modal.style.display = "block";
+   		modalImg.src = image.src;
+   		captionText.innerHTML = image.parentNode.children(1).children(0).innerHTML;	
+	}
+	function closeFunction() { 
+		modal.style.display = "none";
+	}
+</script>
+</body>
+</html>

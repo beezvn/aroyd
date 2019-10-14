@@ -1,0 +1,332 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Specials</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="icon" type="favicon.ico" href="favicon.ico" />
+</head>
+	
+<body>
+
+<!-- Top Navigation Menu Bar section (non-scrolling title + buttons links) -->
+<div class="navigation_bar">
+	<div class="top"></div>
+	<h1 id="h1_title">Aroy-D</h1>
+	<h1 id="h1_subtitle">Thai Restaurant</h1>
+	<div class="links">
+		<table id="table_links">
+			<tr>
+				<th class="th_selecting" id="th_order">	
+					<a id="order_text" href="https://online.kaarot.com.au/aroyd-Penrith/">ORDER</a>
+				</th>
+                <th class="th_selecting">	
+					<a href="index.html">Home</a>
+				</th>
+                <th class="th_selecting">	
+					<a href="menu.html">Menu</a>
+				</th>
+                <th class="th_selecting">	
+					<a href="special_menu.html" id="current_page">Specials</a>
+				</th>
+            	<th class="th_selecting">
+					<a href="contact.html">Contact</a>	
+				</th>
+			</tr>
+		</table>
+	</div>
+
+</div>
+
+<div class="space"></div>
+
+<!-- Pop up image that overlays the entire page, showing the food -->
+<div id="myModal" class="modal">
+	<span class="close" onclick="closeFunction()">&times;</span>
+	<img class="modal-content" id="img01">
+     <div id="caption"></div>
+</div>
+
+
+	<!-- Menu sub section: ENTREES ------------------------------------------------------------->
+	<div class="sub_menu" id="sub_specials">
+    	<h3>CHEF'S SPECIALS</h3>
+        <div id="sub_menu_half">
+        <div>
+        	<table>
+            <th id="th_menu">
+        	<img onclick="displayFunction(this)" alt="" class="img_menu" src="editted photos/(s) cry tiger bf.jpg">
+            </th>
+            <th id="th_menu" class="item_words">
+            	<div>
+        		<p id="p_menu_title">1.&ensp;&ensp;Cry Tiger</p>
+                <p id="p_menu_price">$15.90</p>
+                </div>
+            	<p id="p_menu_description">Grill marinated beef or pork served with Thai tamarind chilli sauce.</p>
+            </th>
+            </table>
+        </div>
+        <div>
+        	<table>
+            <th id="th_menu">
+        	<img onclick="displayFunction(this)" alt="" class="img_menu" src="images/chichencashew.jpg">
+            </th>
+            <th id="th_menu" class="item_words">
+            	<div>
+        		<p id="p_menu_title">2.&ensp;&ensp;Num Tok</p>
+				<p id="p_menu_price">$15.90</p>
+                </div>
+            	<p id="p_menu_description">Grilled juicy beef or pork mixed with fresh Thai herbs and lime juice and dried chilli.</p>
+            </th>
+            </table>
+        </div>
+        <div>
+        	<table>
+            <th id="th_menu">
+        	<img onclick="displayFunction(this)" alt="" class="img_menu" src="images/chichencashew.jpg">
+            </th>
+            <th id="th_menu" class="item_words">
+            	<div>
+        		<p id="p_menu_title">3.&ensp;&ensp;Diced Beef</p>
+                <p id="p_menu_price">$15.90</p>
+                </div>
+            	<p id="p_menu_description">(Unfortunately unavailable)</p>
+            </th>
+            </table>
+        </div>
+        <div>
+        	<table>
+            <th id="th_menu">
+        	<img onclick="displayFunction(this)" alt="" class="img_menu" src="images/chichencashew.jpg">
+            </th>
+            <th id="th_menu" class="item_words">
+        		<div>
+                <p id="p_menu_title">4.&ensp;&ensp;Mu Ka Ta</p>
+                <p id="p_menu_price">$15.90</p>
+            	</div>
+                <p id="p_menu_description">(Unfortunately unavailable)</p>
+            </th>
+            </table>
+        </div>
+        <div>
+        	<table>
+            <th id="th_menu">
+        	<img onclick="displayFunction(this)" alt="" class="img_menu" src="images/chichencashew.jpg">
+            </th>
+            <th id="th_menu" class="item_words">
+        		<div>
+                <p id="p_menu_title">5.&ensp;&ensp;Aroy-D Chicken Curry</p>
+                <p id="p_menu_price">$15.90</p>
+            	</div>
+                <p id="p_menu_description">(Unfortunately unavailable)</p>
+            </th>
+            </table>
+        </div>
+        <div>
+        	<table>
+            <th id="th_menu">
+        	<img onclick="displayFunction(this)" alt="" class="img_menu" src="images/chichencashew.jpg">
+            </th>
+            <th id="th_menu" class="item_words">
+        		<div>
+                <p id="p_menu_title">6.&ensp;&ensp;Paw Paw Salad</p>
+                <p id="p_menu_price">$15.90</p>
+            	</div>
+                <p id="p_menu_description">Thai salad mixed with dried shrimp, salted crab, snack beans, tomato, whole peanut, and lemon chilli fish sauce.</p>
+            </th>
+            </table>
+        </div>
+        <div>
+        	<table>
+            <th id="th_menu">
+        	<img onclick="displayFunction(this)" alt="" class="img_menu" src="images/chichencashew.jpg">
+            </th>
+            <th id="th_menu" class="item_words">
+        		<div>
+                <p id="p_menu_title">7.&ensp;&ensp;Aroy-D Salt and Pepper Tofu</p>
+                <p id="p_menu_price">$13.50</p>
+            	</div>
+                <p id="p_menu_description">Thai style deep fried tofu with dried chilli, fresh garlic and shallots.</p>
+            </th>
+            </table>
+        </div>
+        <div>
+        	<table>
+            <th id="th_menu">
+        	<img onclick="displayFunction(this)" alt="" class="img_menu" src="images/chichencashew.jpg">
+            </th>
+            <th id="th_menu" class="item_words">
+        		<div>
+                <p id="p_menu_title">8.&ensp;&ensp;Duck Omellete</p>
+                <p id="p_menu_price">$15.90</p>
+            	</div>
+                <p id="p_menu_description">BBQ minced duck pan fried with egg served with Thai chilli sauce.</p>
+            </th>
+            </table>
+        </div>
+        <div>
+        	<table>
+            <th id="th_menu">
+        	<img onclick="displayFunction(this)" alt="" class="img_menu" src="images/chichencashew.jpg">
+            </th>
+            <th id="th_menu" class="item_words">
+        		<div>
+                <p id="p_menu_title">9.&ensp;&ensp;Deep Fried Chicken Cashew Nut</p>
+                <p id="p_menu_price">$15.90</p>
+            	</div>
+                <p id="p_menu_description">Buttered chicken stir fried with onion, capsicum and shallots, finished with maggi sauce.</p>
+            </th>
+            </table>
+        </div>
+        </div>
+        <div id="sub_menu_half">
+        <div>
+        	<table>
+            <th id="th_menu">
+        	<img onclick="displayFunction(this)" alt="" class="img_menu" src="images/chichencashew.jpg">
+            </th>
+            <th id="th_menu" class="item_words">
+        		<div>
+                <p id="p_menu_title">10.&ensp;BBQ Mu Kra Pao</p>
+                <p id="p_menu_price">$15.90</p>
+            	</div>
+                <p id="p_menu_description">(Unfortunately unavailable)</p>
+            </th>
+            </table>
+        </div>
+        
+        <div>
+        	<table>
+            <th id="th_menu">
+        	<img onclick="displayFunction(this)" alt="" class="img_menu" src="images/chichencashew.jpg">
+            </th>
+            <th id="th_menu" class="item_words">
+        		<div>
+                <p id="p_menu_title">11.&ensp;Kha Na Mu Grob</p>
+                <p id="p_menu_price">$15.90</p>
+            	</div>
+                <p id="p_menu_description">Roast pork stir fried with Chinese brocolli and oyster sauce.</p>
+            </th>
+            </table>
+        </div>
+        <div>
+        	<table>
+            <th id="th_menu">
+        	<img onclick="displayFunction(this)" alt="" class="img_menu" src="editted photos/12 sat chi.jpg">
+            </th>
+            <th id="th_menu" class="item_words">
+        		<div>
+                <p id="p_menu_title">12.&ensp;Prawn Toast</p>
+                <p id="p_menu_price">$10.00</p>
+            	</div>
+                <p id="p_menu_description">Deep fried prawn toast served with Thai sweet chilli sauce.</p>
+            </th>
+            </table>
+        </div>
+        <div>
+        	<table>
+            <th id="th_menu">
+        	<img onclick="displayFunction(this)" alt="" class="img_menu" src="editted photos/13 thai spaghetti.jpg">
+            </th>
+            <th id="th_menu" class="item_words">
+        		<div>
+                <p id="p_menu_title">13.&ensp;Thai Spaghetti</p>
+                <p id="p_menu_price">$15.90</p>
+            	</div>
+                <p id="p_menu_description">Stir fried hokkien noodle topped with chilli basil beef, chicken or pork mince.</p>
+            </th>
+            </table>
+        </div>
+        <div>
+        	<table>
+            <th id="th_menu">
+        	<img onclick="displayFunction(this)" alt="" class="img_menu" src="editted photos/(s) grilled pork.jpg">
+            </th>
+            <th id="th_menu" class="item_words">
+        		<div>
+                <p id="p_menu_title">14.&ensp;Grilled Tender Pork</p>
+                <p id="p_menu_price">$15.90</p>
+            	</div>
+                <p id="p_menu_description"></p>
+            </th>
+            </table>
+        </div>
+        <div>
+        	<table>
+            <th id="th_menu">
+        	<img onclick="displayFunction(this)" alt="" class="img_menu" src="editted photos/(s) green curry puff	.jpg">
+            </th>
+            <th id="th_menu" class="item_words">
+        		<div>
+                <p id="p_menu_title">15.&ensp;Green Curry Puff</p>
+                <p id="p_menu_price">$3.50</p>
+            	</div>
+                <p id="p_menu_description">(Unfortunately unavailable)</p>
+            </th>
+            </table>
+        </div>
+        <div>
+        	<table>
+            <th id="th_menu">
+        	<img onclick="displayFunction(this)" alt="" class="img_menu" src="editted photos/(s) ka na pork belly.jpg">
+            </th>
+            <th id="th_menu" class="item_words">
+        		<div>
+                <p id="p_menu_title">16. Kha Na Pork Belly</p>
+                <p id="p_menu_price">$15.90</p>
+            	</div>
+            </th>
+            </table>
+        </div>
+        <div>
+        	<table>
+            <th id="th_menu">
+        	<img onclick="displayFunction(this)" alt="" class="img_menu" src="images/chichencashew.jpg">
+            </th>
+            <th id="th_menu" class="item_words">
+        		<div>
+                <p id="p_menu_title">17. Green Curry Fried Rice</p>
+                <p id="p_menu_price">*$13.90</p>
+            	</div>
+                <p id="p_menu_description">*for Chicken, Pork or Beef</p>
+            </th>
+            </table>
+        </div>
+        <div>
+        	<table>
+            <th id="th_menu">
+        	<img onclick="displayFunction(this)" alt="" class="img_menu" src="images/chichencashew.jpg">
+            </th>
+            <th id="th_menu" class="item_words">
+        		<div>
+                <p id="p_menu_title">18. Prawn Taro Cake</p>
+                <p id="p_menu_price">$9.50</p>
+            	</div>
+                <p id="p_menu_description">(Unfortunately unavailable)</p>
+            </th>
+            </table>
+        </div>
+        </div>
+    </div> 
+
+
+<!--*************************** Footer section ***************************-->
+<div class="footer">
+	<p id="p_footer">&copy; Aroy-D Thai Restaurant | Shop 1, 251 High St Penrith, NSW 2750 
+    | Tel: 02 4732 2362, Mob: 0422 128 165</p>
+</div>
+
+<script>
+	var modal = document.getElementById('myModal');
+	var modalImg = document.getElementById("img01");
+	var captionText = document.getElementById("caption");
+	function displayFunction(image){
+		modal.style.display = "block";
+   		modalImg.src = image.src;
+   		captionText.innerHTML = image.parentNode.children(1).children(0).innerHTML;	
+	}
+	function closeFunction() { 
+		modal.style.display = "none";
+	}
+</script>
+</body>
+</html>
